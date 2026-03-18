@@ -1,7 +1,9 @@
 function App() {
   return (
     <>
-      <h1>Guitar Store</h1>
+      <div>
+        <h1>Estamos testeando la comunication entre las dos partes</h1>
+      </div>
     </>
   );
 }
