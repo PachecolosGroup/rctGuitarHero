@@ -1,5 +1,5 @@
 import React from "react";
-function Guitar({ guitar, addToCart }) {
+function Guitar({ guitar }) {
   const { id, name, image, description, price } = guitar;
 
   return (
@@ -15,11 +15,7 @@ function Guitar({ guitar, addToCart }) {
         <h3 className="text-black fs-4 fw-bold text-uppercase">{name}</h3>
         <p>{description}</p>
         <p className="fw-black text-primary fs-3">${price.toFixed(2)}</p>
-        <button
-          type="button"
-          className="btn btn-dark w-100"
-          onClick={() => addToCart(guitar)}
-        >
+        <button type="button" className="btn btn-dark w-100">
           Agregar al Carrito
         </button>
       </div>
