@@ -20,7 +20,7 @@ function Guitar({ guitar, addToCart }) {
           className="btn btn-dark w-100"
           onClick={() => addToCart(guitar)}
         >
-          Agregar al Carrito los items
+          Agregar al Carrito
         </button>
       </div>
     </div>
